@@ -35,4 +35,4 @@ Change the background color in the body selector.
 
 Update the button color in .btn and .btn:hover.
 
-Replace the text inside <h1> and <p> with your own content.
+Replace the text inside <h1> and  with your own content.
