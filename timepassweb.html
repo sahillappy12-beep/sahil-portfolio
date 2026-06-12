@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Page</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/073/563/256/small/a-dramatic-spotlight-shines-on-a-dark-textured-stone-wall-and-floor-creating-a-moody-background-photo.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80");
+        margin: 0;
+        padding: 80px;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background: rgb(244, 243, 243);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        color: #2c3e50;
+      }
+
+      p {
+        color: #555;
+        line-height: 1.6;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #3498db;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background: #2980b9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hey I am Sahil.. !</h1>
+      <p>...!</p>
+      <button
+        class="btn"
+        onclick="document.getElementById('img').src = 'sahiltt.jpg.jpg'"
+      >
+        Click here to see my image
+      </button>
+      <br /><br />
+      <img id="img" style="max-width: 600px; display: block" />
+    </div>
+  </body>
+</html>
